@@ -1,0 +1,67 @@
+/* Add here all your CSS customizations */
+
+/* Search & Navigation header */
+header{
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  z-index: 10000000;
+  background: rgba(255, 255, 255, 0.85);
+  background: red;
+}
+
+header .logo{
+  height: 50px;
+  background: blue;
+  float: left;
+}
+
+header .search{
+  float: left;
+  width: 100px;
+}
+
+.content-padding{
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+/* Product search item */
+
+.product-thumb-info{
+  border-width: 2px;
+}
+
+.product-thumb-info:hover{
+  background-color: #F7F9FC;
+}
+
+.product-thumb-info-content{
+  color: #0088cc;
+}
+
+.product-thumb-info:hover .product-thumb-info-image:before{
+  background: white;
+  opacity: .2;
+  border-radius: 3px 3px 0 0;
+}
+
+.product-thumb-info-image{
+  position:relative;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 100%; /* proportional scaling */
+  background: white no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.product-thumb-info-image .img-responsive{
+  max-width: 100%;
+}
+
