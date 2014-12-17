@@ -153,6 +153,16 @@ table.alternate-prices tr:last-child td{
   padding-bottom: 13px !important;
 }
 
+.full-size-product{
+  width: 100%;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.shop .tabs-product{
+  margin-top: 0px;
+}
+
 /**************** Footer *******************/
 #footer{
   background: #2c3e50;
