@@ -198,12 +198,12 @@ table.alternate-prices tr:last-child td{
   background: #243341;
   border: 0;
   color: #CCCCCC;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 #footer .footer-copyright p{
   color: #CCCCCC;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 
 #footer .logo{
