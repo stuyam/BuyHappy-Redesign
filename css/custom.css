@@ -3,24 +3,43 @@
 /* Search & Navigation header */
 header{
   top: 0px;
-  height: 60px;
   width: 100%;
   padding: 5px;
   position: fixed;
   z-index: 10000000;
-  background: rgba(255, 255, 255, 0.85);
-  background: red;
+  background: rgba(255, 255, 255, 0.97);
+  border-bottom: 1px solid #EEEEEE;
+}
+
+header .input-group{
+  width: 100%;
+  max-width: 400px;
+  margin: 4px 4px 4px 0;
 }
 
 header .logo{
-  height: 50px;
-  background: blue;
+  height: 40px;
+  margin: 5px 20px 5px 0;
   float: left;
+}
+
+header .input-group-addon{
+  background: url(http://cdn.buyhappy.co/images/icon-search.png) no-repeat center center / 14px 14px;
+  padding: 20px;
+  border-color: #EEEEEE;
 }
 
 header .search{
   float: left;
-  width: 100px;
+  width: 100%;
+  border-radius: 0px 3px 3px 0px;
+  padding: 20px 20px 20px 0;
+  border-color: #EEEEEE;
+  border-left: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
 }
 
 .content-padding{
@@ -32,7 +51,7 @@ header .search{
 /* Product search item */
 
 .product-thumb-info{
-  border-width: 2px;
+  border: 1px solid #EEEEEE;
 }
 
 .product-thumb-info:hover{
@@ -44,8 +63,7 @@ header .search{
 }
 
 .product-thumb-info:hover .product-thumb-info-image:before{
-  background: white;
-  opacity: .2;
+  opacity: .1;
   border-radius: 3px 3px 0 0;
 }
 
