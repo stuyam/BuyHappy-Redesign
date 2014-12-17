@@ -1,6 +1,6 @@
 /* Add here all your CSS customizations */
 
-/* Search & Navigation header */
+/************** Search & Navigation header *******************/
 header{
   top: 0px;
   width: 100%;
@@ -63,7 +63,7 @@ header .form-control:focus, header .form-control:focus + .search-addon{
   width: 100%;
 }
 
-/* Product search item */
+/************** Product search item ****************/
 
 .product-thumb-info{
   border: 1px solid #EEEEEE;
@@ -96,6 +96,42 @@ header .form-control:focus, header .form-control:focus + .search-addon{
 
 .product-thumb-info-image .img-responsive{
   max-width: 100%;
+}
+
+/************** Product page ****************/
+.summary h1{
+  margin-bottom: 20px;
+}
+
+.price{
+  margin-bottom: 5px;
+}
+
+.buy-now{
+  margin: 16px 0 5px 40px;
+  padding: 8px 30px;
+}
+
+#vendor-name{
+  font-size: 20px;
+  color: #000000;
+  font-weight: 200;
+}
+
+table.alternate-prices{
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #EEEEEE;
+  border-radius: 50px !important;
+  margin: 20px 0;
+  font-weight: 300;
+  letter-spacing: .7px;
+}
+
+table.alternate-prices th{
+  font-weight: 300;
+  letter-spacing: .7px;
+  color: #0088cc;
 }
 
 /**************** Footer *******************/
