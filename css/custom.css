@@ -121,17 +121,36 @@ header .form-control:focus, header .form-control:focus + .search-addon{
 table.alternate-prices{
   width: 100%;
   max-width: 400px;
-  border: 1px solid #EEEEEE;
-  border-radius: 50px !important;
+  border-radius: 5px !important;
   margin: 20px 0;
   font-weight: 300;
   letter-spacing: .7px;
+  box-shadow: 0px 0px 7px #DDDDDD;
 }
 
 table.alternate-prices th{
   font-weight: 300;
   letter-spacing: .7px;
   color: #0088cc;
+  border-bottom: 1px solid #eee !important;
+  padding: 13px !important;
+}
+
+table.alternate-prices td{
+  border: 0 !important;
+  padding: 8px 13px 0px 13px !important;
+}
+
+table.alternate-prices td:last-child{
+  text-align: right;
+}
+
+table.alternate-prices tr:first-child td{
+  padding-top: 13px !important;
+}
+
+table.alternate-prices tr:last-child td{
+  padding-bottom: 13px !important;
 }
 
 /**************** Footer *******************/
