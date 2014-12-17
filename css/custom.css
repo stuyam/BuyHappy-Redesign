@@ -12,8 +12,8 @@ header{
 }
 
 header .logo{
-  height: 40px;
-  margin: 5px 20px 5px 0;
+  height: 34px;
+  margin: 8px 20px 8px 0;
   float: left;
 }
 
@@ -98,3 +98,28 @@ header .form-control:focus, header .form-control:focus + .search-addon{
   max-width: 100%;
 }
 
+/**************** Footer *******************/
+#footer{
+  background: #2c3e50;
+  border: 0;
+}
+
+#footer p{
+  color: #CCCCCC;
+}
+
+#footer .footer-copyright{
+  background: #243341;
+  border: 0;
+  color: #CCCCCC;
+  line-height: 30px;
+}
+
+#footer .footer-copyright p{
+  color: #CCCCCC;
+  padding-top: 5px;
+}
+
+#footer .logo{
+  max-width: 200px;
+}
