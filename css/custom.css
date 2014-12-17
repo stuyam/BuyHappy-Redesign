@@ -38,7 +38,7 @@ header .search-addon{
 
 header .search{
   float: right !important;
-  width: calc( 100% - 50px ) !important;
+  width: calc( 100% - 42px ) !important;
   border-radius: 0px 3px 3px 0px !important;
   padding: 20px 20px 20px 0;
   border: 1px solid #EEEEEE;
@@ -59,8 +59,25 @@ header .form-control:focus, header .form-control:focus + .search-addon{
 
 .content-padding{
   position: relative;
-  height: 100px;
+  height: 90px;
   width: 100%;
+}
+@media (max-width: 623px) {
+  header .container{
+    padding: 0 5px;
+  }
+  header .input-group{
+    max-width: 100%;
+  }
+  header .logo{
+    display: block;
+    margin: 8px auto;
+    position: relative;
+    float: none;
+  }
+  .content-padding{
+    height: 140px;
+  }
 }
 
 /************** Product search item ****************/
@@ -161,6 +178,10 @@ table.alternate-prices tr:last-child td{
 
 .shop .tabs-product{
   margin-top: 0px;
+}
+
+.shop .product_meta{
+  margin-bottom: 20px;
 }
 
 /**************** Footer *******************/
