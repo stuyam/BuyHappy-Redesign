@@ -11,31 +11,46 @@ header{
   border-bottom: 1px solid #EEEEEE;
 }
 
-header .input-group{
-  width: 100%;
-  max-width: 400px;
-  margin: 4px 4px 4px 0;
-}
-
 header .logo{
   height: 40px;
   margin: 5px 20px 5px 0;
   float: left;
 }
 
-header .input-group-addon{
-  background: url(http://cdn.buyhappy.co/images/icon-search.png) no-repeat center center / 14px 14px;
+header .input-group{
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 4px 4px 4px 0;
+}
+
+header .search-addon{
+  background: white url(http://cdn.buyhappy.co/images/icon-search.png) no-repeat center center / 14px 14px;
   padding: 20px;
-  border-color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  border-right: 0;
+  border-radius: 3px 0px 0px 3px;
+  float: right;
+  -webkit-transition: border-color ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s;
+  transition: border-color ease-in-out .15s;
 }
 
 header .search{
-  float: left;
-  width: 100%;
-  border-radius: 0px 3px 3px 0px;
+  float: right !important;
+  width: calc( 100% - 50px ) !important;
+  border-radius: 0px 3px 3px 0px !important;
   padding: 20px 20px 20px 0;
-  border-color: #EEEEEE;
+  border: 1px solid #EEEEEE;
   border-left: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+header .form-control:focus, header .form-control:focus + .search-addon{
+  border-color: #66afe9;
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
