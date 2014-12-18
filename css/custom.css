@@ -16,7 +16,7 @@ html, body, .body{
 
 /************** Home Page *****************/
 #home-page-cover{
-  background: url(http://cdn.buyhappy.co/images/site-bg-fade2.png) no-repeat center center;
+  background: #EEEEEE no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,7 +38,57 @@ html, body, .body{
 }
 
 #cover-content{
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 16%;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
 
+#cover-content .title{
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+#cover-content .sub-title{
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+#cover-content .search{
+  margin-top: 15px;
+  margin-left: 3%;
+  width: 70%;
+  border-radius: 3px;
+  padding: 20px;
+  border: 1px solid #EEEEEE;
+  border-left: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  float: left;
+}
+
+#cover-content .submit{
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 21%;
+  padding: 10px;
+  margin-top: 15px
+}
+
+.homepage{
+  background: white;
+}
+
+.homepage .phone-group{
+  padding-top: 50px;
 }
 
 /************** Search & Navigation Header *******************/
