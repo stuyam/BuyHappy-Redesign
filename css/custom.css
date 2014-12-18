@@ -1,5 +1,10 @@
 /* Add here all your CSS customizations */
 
+/************** Global *****************/
+html, body, h1, h2, h3, h4, h5, h6, div, span, strong, table, tr, th, td{
+  font-family: "proxima-nova", sans-serif !important;
+}
+
 /************** Search & Navigation header *******************/
 header{
   top: 0px;
