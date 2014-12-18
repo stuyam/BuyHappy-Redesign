@@ -173,6 +173,7 @@ table.alternate-prices th{
 table.alternate-prices td{
   border: 0 !important;
   padding: 8px 13px 0px 13px !important;
+  cursor: pointer;
 }
 
 table.alternate-prices td:last-child{
