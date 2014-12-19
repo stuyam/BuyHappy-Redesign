@@ -111,29 +111,24 @@
 
 			</div>
 
-			<footer id="footer" style="margin: 0; padding: 0;">
-				<div class="footer-copyright">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-2">
-								<a href="index.html" class="logo">
-									<img alt="Porto Website Template" class="img-responsive" src="img/logo-white.png">
-								</a>
-							</div>
-							<div class="col-md-6">
-								<p>© Copyright 2014. All Rights Reserved.</p>
-							</div>
-							<div class="col-md-4">
-								<nav id="sub-menu">
-									<ul>
-										<li><a href="page-faq.html">FAQ's</a></li>
-										<li><a href="sitemap.html">Sitemap</a></li>
-										<li><a href="contact-us.html">Contact</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-					</div>
+			<footer>
+				<div class="container">
+					<img class="logo" onclick="window.document.location='/';" alt="Porto Website Template" class="img-responsive" src="img/logo-white.png">
+					<ul class="social-icons">
+						<li class="facebook"><a href="https://www.facebook.com/buyhappyapp" target="_blank" data-placement="bottom" data-tooltip title="Facebook">Facebook</a></li>
+						<li class="twitter"><a href="https://twitter.com/BuyHappy" target="_blank" data-placement="bottom" data-tooltip title="Twitter">Twitter</a></li>
+						<li class="pinterest"><a href="http://www.pinterest.com/buyhappy/" target="_blank" data-placement="bottom" data-tooltip title="Pinterest">Pinterest</a></li>
+					</ul>
+				</div>
+				<div class="container">
+					<span id="copyright">Copyright ©2014 Second Chance Technologies</span>
+					<span id="footer-links">
+						<a href="#">Privacy Policy</a>
+						&nbsp;|&nbsp;
+						<a href="#">Contact</a>
+						&nbsp;|&nbsp;
+						<a href="#">Team</a>
+					</span>
 				</div>
 			</footer>
 		</div>
@@ -141,6 +136,16 @@
 		<!-- Vendor -->
 		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script>
+			$(window).scroll(function(){
+				if( $(window).width() > 600){
+	      	$('#home-page-cover').css('backgroundPosition', '0 -'+$(document).scrollTop()*.5+'px');
+				}
+				else{
+					$('#home-page-cover').css('background-attachment', 'local');
+				}
+	    });
+		</script>
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script type="text/javascript">

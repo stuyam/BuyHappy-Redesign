@@ -16,7 +16,7 @@ html, body, .body{
 
 /************** Home Page *****************/
 #home-page-cover{
-  background: #EEEEEE url(/img/background.png) no-repeat center center;
+  background: #EEEEEE url(/img/background.png) no-repeat 0px 0px fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -111,6 +111,10 @@ html, body, .body{
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -o-box-shadow: none;
+}
+
+.call-to-action.featured.footer{
+  margin-bottom: 0px;
 }
 
 /************** Search & Navigation Header *******************/
@@ -308,27 +312,61 @@ table.alternate-prices tr:last-child td{
 }
 
 /**************** Footer *******************/
-#footer{
+footer{
   background: #2c3e50;
-  border: 0;
+  padding: 20px;
 }
 
-#footer p{
-  color: #CCCCCC;
+footer .container:first-child{
+  padding-bottom: 10px;
 }
 
-#footer .footer-copyright{
-  background: #243341;
-  border: 0;
-  color: #CCCCCC;
-  line-height: 40px;
+footer .logo{
+  width: 155px;
+  margin: 11px 20px 11px 0;
+  cursor: pointer;
+  float: left;
 }
 
-#footer .footer-copyright p{
-  color: #CCCCCC;
-  padding-top: 7px;
+footer #copyright{
+  color: #EEE;
+  margin: 0 0 10px 0;
+  font-size: .9em;
+  float: left;
 }
 
-#footer .logo{
-  max-width: 200px;
+footer .social-icons{
+  float: right;
+  padding-top: 11px;
+}
+
+footer #footer-links{
+  color: #EEE;
+  float: right;
+  font-size: .9em;
+}
+
+footer #footer-links a{
+  color: #EEE !important;
+}
+
+@media (max-width: 520px) {
+  footer .logo{
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  footer #copyright,
+  footer #footer-links{
+    text-align: center;
+    width: 100%;
+  }
+
+  footer .social-icons{
+    float: none;
+    width: 105px;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
