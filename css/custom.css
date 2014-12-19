@@ -16,7 +16,7 @@ html, body, .body{
 
 /************** Home Page *****************/
 #home-page-cover{
-  background: #EEEEEE no-repeat center center;
+  background: #EEEEEE url(/img/background.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,12 +28,11 @@ html, body, .body{
 #home-page-cover nav{
   width: 100%;
   padding: 5px;
-  background: rgba(255, 255, 255, 0.6);
 }
 
 #home-page-cover .logo{
-  height: 34px;
-  margin: 8px 20px 8px 0;
+  height: 28px;
+  margin: 11px 20px 11px 0;
   float: left;
 }
 
@@ -52,11 +51,13 @@ html, body, .body{
   font-size: 4em;
   font-weight: bold;
   line-height: 1.2em;
+  margin: 0 10px;
 }
 
 #cover-content .sub-title{
   font-size: 1.5em;
   line-height: 1.2em;
+  margin: 0 10px;
 }
 
 #cover-content .search{
@@ -91,6 +92,27 @@ html, body, .body{
   padding-top: 50px;
 }
 
+.dropdown-toggle,
+.dropdown-toggle:hover,
+.dropdown-toggle:active,
+.dropdown-toggle:focus{
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 1.2em;
+  font-weight: bold;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+
+.dropdown-menu{
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+
 /************** Search & Navigation Header *******************/
 header{
   top: 0px;
@@ -103,8 +125,8 @@ header{
 }
 
 header .logo{
-  height: 34px;
-  margin: 8px 20px 8px 0;
+  height: 28px;
+  margin: 11px 20px 11px 0;
   float: left;
 }
 
