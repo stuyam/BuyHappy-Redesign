@@ -285,7 +285,7 @@ header .form-control:focus, header .form-control:focus + .search-addon{
 
 table.alternate-prices{
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   border-radius: 5px !important;
   margin: 0 0 20px 0;
   font-weight: 300;
@@ -324,7 +324,10 @@ table.alternate-prices tr:last-child td{
 .full-size-product{
   width: 100%;
   border: 1px solid #eee;
+  display: block;
+  /*margin: auto;*/
   margin-bottom: 20px;
+  max-width: 450px;
 }
 
 .shop .tabs-product{
